@@ -1,0 +1,297 @@
+Source	Cell Type (Clean)	Cell Type	Spearman's Correlation	Pearson's Correlation	Description (e.g. cell type, tissue, system)
+BLUEPRINT	adult endothelial progenitor cell adult endothelial progenitor cell venous blood	adult.endothelial.progenitor.cell.adult.endothelial.progenitor.cell.venous.blood	0.720661289	0.8118212429	blood, endothelial
+BLUEPRINT	alternatively activated macrophage alternatively activated macrophage cord blood	alternatively.activated.macrophage.alternatively.activated.macrophage.cord.blood	0.5672143037	0.88678182	blood, macrophage
+BLUEPRINT	alternatively activated macrophage alternatively activated macrophage venous blood	alternatively.activated.macrophage.alternatively.activated.macrophage.venous.blood	0.6052283727	0.8858479481	blood, macrophage
+BLUEPRINT	band form neutrophil band form neutrophil bone marrow	band.form.neutrophil.band.form.neutrophil.bone.marrow	0.6369169533	0.8841319435	blood, neutrophil
+BLUEPRINT	CD14 positive  CD16 negative classical monocyte CD14 positive  CD16 negative classical monocyte cord blood	CD14.positive..CD16.negative.classical.monocyte.CD14.positive..CD16.negative.classical.monocyte.cord.blood	0.6585312488	0.8976952204	blood, monocyte
+BLUEPRINT	CD14 positive  CD16 negative classical monocyte CD14 positive  CD16 negative classical monocyte venous blood	CD14.positive..CD16.negative.classical.monocyte.CD14.positive..CD16.negative.classical.monocyte.venous.blood	0.6893159327	0.8935390723	blood, monocyte
+BLUEPRINT	CD3 negative  CD4 positive  CD8 positive  double positive thymocyte CD3 negative  CD4 positive  CD8 positive  double positive thymocyte thymus lymphoid tissue	CD3.negative..CD4.positive..CD8.positive..double.positive.thymocyte.CD3.negative..CD4.positive..CD8.positive..double.positive.thymocyte.thymus.lymphoid.tissue	0.5861341752	0.8966152822	blood, thymocyte
+BLUEPRINT	CD3 positive  CD4 positive  CD8 positive  double positive thymocyte CD3 positive  CD4 positive  CD8 positive  double positive thymocyte thymus lymphoid tissue	CD3.positive..CD4.positive..CD8.positive..double.positive.thymocyte.CD3.positive..CD4.positive..CD8.positive..double.positive.thymocyte.thymus.lymphoid.tissue	0.5867211508	0.8964916134	blood, thymocyte
+BLUEPRINT	CD34 negative  CD41 positive  CD42 positive megakaryocyte cell CD34 negative  CD41 positive  CD42 positive megakaryocyte cell cord blood	CD34.negative..CD41.positive..CD42.positive.megakaryocyte.cell.CD34.negative..CD41.positive..CD42.positive.megakaryocyte.cell.cord.blood	0.5893377587	0.8682673963	blood, megakaryocyte
+BLUEPRINT	CD38 negative naive B cell CD38 negative naive B cell cord blood	CD38.negative.naive.B.cell.CD38.negative.naive.B.cell.cord.blood	0.5374378358	0.8938828641	blood, B cell
+BLUEPRINT	CD38 negative naive B cell CD38 negative naive B cell venous blood	CD38.negative.naive.B.cell.CD38.negative.naive.B.cell.venous.blood	0.5641081091	0.8901720273	blood, B cell
+BLUEPRINT	CD4 positive  alpha beta T cell CD4 positive  alpha beta T cell venous blood	CD4.positive..alpha.beta.T.cell.CD4.positive..alpha.beta.T.cell.venous.blood	0.6705104616	0.8940875239	blood, T cell
+BLUEPRINT	CD4 positive  alpha beta T cell Type 1 diabetes mellitus venous blood	CD4.positive..alpha.beta.T.cell.Type.1.diabetes.mellitus.venous.blood	0.6009046188	0.7285038434	blood, T cell
+BLUEPRINT	CD4 positive  alpha beta thymocyte CD4 positive  alpha beta thymocyte thymus lymphoid tissue	CD4.positive..alpha.beta.thymocyte.CD4.positive..alpha.beta.thymocyte.thymus.lymphoid.tissue	0.5813445483	0.8936068309	blood, thymocyte
+BLUEPRINT	CD8 positive  alpha beta T cell CD8 positive  alpha beta T cell cord blood	CD8.positive..alpha.beta.T.cell.CD8.positive..alpha.beta.T.cell.cord.blood	0.5259904094	0.8980438186	blood, T cell
+BLUEPRINT	CD8 positive  alpha beta T cell CD8 positive  alpha beta T cell venous blood	CD8.positive..alpha.beta.T.cell.CD8.positive..alpha.beta.T.cell.venous.blood	0.6201632174	0.8916627311	blood, T cell
+BLUEPRINT	CD8 positive  alpha beta thymocyte CD8 positive  alpha beta thymocyte thymus lymphoid tissue	CD8.positive..alpha.beta.thymocyte.CD8.positive..alpha.beta.thymocyte.thymus.lymphoid.tissue	0.5862328423	0.8960462131	blood, thymocyte
+BLUEPRINT	central memory CD4 positive  alpha beta T cell central memory CD4 positive  alpha beta T cell venous blood	central.memory.CD4.positive..alpha.beta.T.cell.central.memory.CD4.positive..alpha.beta.T.cell.venous.blood	0.7419914501	0.8694478311	blood, T cell
+BLUEPRINT	central memory CD8 positive  alpha beta T cell central memory CD8 positive  alpha beta T cell venous blood	central.memory.CD8.positive..alpha.beta.T.cell.central.memory.CD8.positive..alpha.beta.T.cell.venous.blood	0.7106351935	0.8649734438	blood, T cell
+BLUEPRINT	class switched memory B cell class switched memory B cell venous blood	class.switched.memory.B.cell.class.switched.memory.B.cell.venous.blood	0.7532180303	0.8308684511	blood, B cell
+BLUEPRINT	conventional dendritic cell conventional dendritic cell cord blood	conventional.dendritic.cell.conventional.dendritic.cell.cord.blood	0.5762814163	0.8943640808	blood, dendritic
+BLUEPRINT	cytotoxic CD56 dim natural killer cell cytotoxic CD56 dim natural killer cell cord blood	cytotoxic.CD56.dim.natural.killer.cell.cytotoxic.CD56.dim.natural.killer.cell.cord.blood	0.645365921	0.8886392664	blood, NK cell
+BLUEPRINT	cytotoxic CD56 dim natural killer cell cytotoxic CD56 dim natural killer cell venous blood	cytotoxic.CD56.dim.natural.killer.cell.cytotoxic.CD56.dim.natural.killer.cell.venous.blood	0.6296290027	0.8828520914	blood, NK cell
+BLUEPRINT	effector memory CD4 positive  alpha beta T cell effector memory CD4 positive  alpha beta T cell venous blood	effector.memory.CD4.positive..alpha.beta.T.cell.effector.memory.CD4.positive..alpha.beta.T.cell.venous.blood	0.7645296886	0.8583667106	blood, T cell
+BLUEPRINT	effector memory CD8 positive  alpha beta T cell  terminally differentiated effector memory CD8 positive  alpha beta T cell  terminally differentiated venous blood	effector.memory.CD8.positive..alpha.beta.T.cell..terminally.differentiated.effector.memory.CD8.positive..alpha.beta.T.cell..terminally.differentiated.venous.blood	0.7538857227	0.8421096225	blood, T cell
+BLUEPRINT	effector memory CD8 positive  alpha beta T cell effector memory CD8 positive  alpha beta T cell venous blood	effector.memory.CD8.positive..alpha.beta.T.cell.effector.memory.CD8.positive..alpha.beta.T.cell.venous.blood	0.7660206899	0.8554897356	blood, T cell
+BLUEPRINT	endothelial cell of umbilical vein  proliferating  endothelial cell of umbilical vein  proliferating  cord blood	endothelial.cell.of.umbilical.vein..proliferating..endothelial.cell.of.umbilical.vein..proliferating..cord.blood	0.644714196	0.869244439	blood, endothelial
+BLUEPRINT	endothelial cell of umbilical vein  resting  endothelial cell of umbilical vein  resting  cord blood	endothelial.cell.of.umbilical.vein..resting..endothelial.cell.of.umbilical.vein..resting..cord.blood	0.6482794144	0.8619610363	blood, endothelial
+BLUEPRINT	erythroblast erythroblast cord blood	erythroblast.erythroblast.cord.blood	0.6627715156	0.8636153119	blood, erythroblast
+BLUEPRINT	germinal center B cell germinal center B cell tonsil	germinal.center.B.cell.germinal.center.B.cell.tonsil	0.7432595815	0.8613337283	blood, B cell
+BLUEPRINT	hematopoietic multipotent progenitor cell hematopoietic multipotent progenitor cell bone marrow	hematopoietic.multipotent.progenitor.cell.hematopoietic.multipotent.progenitor.cell.bone.marrow	0.5440628716	0.9121090917	blood, hematopoietic
+BLUEPRINT	immature conventional dendritic cell immature conventional dendritic cell   GM CSF IL4 T 6 days venous blood	immature.conventional.dendritic.cell.immature.conventional.dendritic.cell...GM.CSF_IL4_T.6_days.venous.blood	0.6738162306	0.8897797062	blood, dendritic
+BLUEPRINT	inflammatory macrophage inflammatory macrophage cord blood	inflammatory.macrophage.inflammatory.macrophage.cord.blood	0.5716465775	0.8929282834	blood, macrophage
+BLUEPRINT	inflammatory macrophage inflammatory macrophage venous blood	inflammatory.macrophage.inflammatory.macrophage.venous.blood	0.6266760742	0.8902589765	blood, macrophage
+BLUEPRINT	macrophage macrophage   T 6days B glucan venous blood	macrophage.macrophage...T.6days.B.glucan.venous.blood	0.550382112	0.8835523688	blood, macrophage
+BLUEPRINT	macrophage macrophage   T 6days untreated venous blood	macrophage.macrophage...T.6days.untreated.venous.blood	0.5240483255	0.8801583901	blood, macrophage
+BLUEPRINT	macrophage macrophage cord blood	macrophage.macrophage.cord.blood	0.5535152051	0.8860967121	blood, macrophage
+BLUEPRINT	macrophage macrophage venous blood	macrophage.macrophage.venous.blood	0.6183676132	0.8901998569	blood, macrophage
+BLUEPRINT	mature conventional dendritic cell mature conventional dendritic cell   GM CSF IL4 T 6 days R848 T 24hrs venous blood	mature.conventional.dendritic.cell.mature.conventional.dendritic.cell...GM.CSF_IL4_T.6_days_R848_T.24hrs.venous.blood	0.6767548545	0.8899781559	blood, dendritic
+BLUEPRINT	mature eosinophil mature eosinophil venous blood	mature.eosinophil.mature.eosinophil.venous.blood	0.665052697	0.8711841405	blood, eosinophil
+BLUEPRINT	mature neutrophil mature neutrophil   G CSF Dex  Treatment  16 20 hrs  venous blood	mature.neutrophil.mature.neutrophil...G.CSF.Dex..Treatment..16.20.hrs..venous.blood	0.6342165687	0.8844678478	blood, neutrophil
+BLUEPRINT	mature neutrophil mature neutrophil cord blood	mature.neutrophil.mature.neutrophil.cord.blood	0.6343332958	0.8920830951	blood, neutrophil
+BLUEPRINT	mature neutrophil mature neutrophil venous blood	mature.neutrophil.mature.neutrophil.venous.blood	0.6815741252	0.8873747859	blood, neutrophil
+BLUEPRINT	memory B cell memory B cell venous blood	memory.B.cell.memory.B.cell.venous.blood	0.7323906338	0.8490778837	blood, B cell
+BLUEPRINT	mesenchymal stem cell of the bone marrow mesenchymal stem cell of the bone marrow venous blood	mesenchymal.stem.cell.of.the.bone.marrow.mesenchymal.stem.cell.of.the.bone.marrow.venous.blood	0.7125925255	0.7621344533	blood, stem
+BLUEPRINT	monocyte monocyte   Attached T 1hr venous blood	monocyte.monocyte...Attached_T.1hr.venous.blood	0.6417952368	0.8892430797	blood, monocyte
+BLUEPRINT	monocyte monocyte   None venous blood	monocyte.monocyte...None.venous.blood	0.6602296739	0.8857221709	blood, monocyte
+BLUEPRINT	monocyte monocyte   RPMI BG T 1hr venous blood	monocyte.monocyte...RPMI_BG_T.1hr.venous.blood	0.5919351204	0.8776306791	blood, monocyte
+BLUEPRINT	monocyte monocyte   RPMI BG T 24hrs RPMI T 5days venous blood	monocyte.monocyte...RPMI_BG_T.24hrs_RPMI_T.5days.venous.blood	0.6316124147	0.88820797	blood, monocyte
+BLUEPRINT	monocyte monocyte   RPMI BG T 24hrs venous blood	monocyte.monocyte...RPMI_BG_T.24hrs.venous.blood	0.6447754668	0.8883417411	blood, monocyte
+BLUEPRINT	monocyte monocyte   RPMI BG T 4hrs venous blood	monocyte.monocyte...RPMI_BG_T.4hrs.venous.blood	0.5850204763	0.8769009056	blood, monocyte
+BLUEPRINT	monocyte monocyte   RPMI LPS T 1hr venous blood	monocyte.monocyte...RPMI_LPS_T.1hr.venous.blood	0.5932439563	0.8782804468	blood, monocyte
+BLUEPRINT	monocyte monocyte   RPMI LPS T 24hrs RPMI T 5days venous blood	monocyte.monocyte...RPMI_LPS_T.24hrs_RPMI_T.5days.venous.blood	0.5536486208	0.8692473084	blood, monocyte
+BLUEPRINT	monocyte monocyte   RPMI LPS T 24hrs venous blood	monocyte.monocyte...RPMI_LPS_T.24hrs.venous.blood	0.6387520558	0.8887113349	blood, monocyte
+BLUEPRINT	monocyte monocyte   RPMI LPS T 4hrs venous blood	monocyte.monocyte...RPMI_LPS_T.4hrs.venous.blood	0.620013714	0.8835217477	blood, monocyte
+BLUEPRINT	monocyte monocyte   RPMI T 1hr venous blood	monocyte.monocyte...RPMI_T.1hr.venous.blood	0.5798821948	0.8752554779	blood, monocyte
+BLUEPRINT	monocyte monocyte   RPMI T 24hrs venous blood	monocyte.monocyte...RPMI_T.24hrs.venous.blood	0.5972739321	0.878274181	blood, monocyte
+BLUEPRINT	monocyte monocyte   RPMI T 4hrs venous blood	monocyte.monocyte...RPMI_T.4hrs.venous.blood	0.5890131128	0.8771700689	blood, monocyte
+BLUEPRINT	monocyte monocyte   RPMI T 6days venous blood	monocyte.monocyte...RPMI_T.6days.venous.blood	0.5809122266	0.8783718061	blood, monocyte
+BLUEPRINT	monocyte monocyte   T 0days venous blood	monocyte.monocyte...T.0days.venous.blood	0.5489509136	0.8802484073	blood, monocyte
+BLUEPRINT	mononuclear cell of bone marrow Acute Myeloid Leukemia bone marrow	mononuclear.cell.of.bone.marrow.Acute.Myeloid.Leukemia.bone.marrow	0.5859580036	0.8428715431	blood, mononuclear, cancer
+BLUEPRINT	myeloid cell Acute Myeloid Leukemia   CTR bone marrow	myeloid.cell.Acute.Myeloid.Leukemia...CTR.bone.marrow	0.4645777412	0.7879055672	blood, myeloid, cancer
+BLUEPRINT	myeloid cell Acute Myeloid Leukemia   CTR venous blood	myeloid.cell.Acute.Myeloid.Leukemia...CTR.venous.blood	0.6525188976	0.8025546611	blood, myeloid, cancer
+BLUEPRINT	myeloid cell Acute Myeloid Leukemia bone marrow	myeloid.cell.Acute.Myeloid.Leukemia.bone.marrow	0.6517108751	0.8513025809	blood, myeloid, cancer
+BLUEPRINT	myeloid cell Acute Myeloid Leukemia venous blood	myeloid.cell.Acute.Myeloid.Leukemia.venous.blood	0.722370179	0.8767413006	blood, myeloid, cancer
+BLUEPRINT	myeloid cell Acute Promyelocytic Leukemia   ATRA bone marrow	myeloid.cell.Acute.Promyelocytic.Leukemia...ATRA.bone.marrow	0.5066246781	0.7968203846	blood, myeloid, cancer
+BLUEPRINT	myeloid cell Acute Promyelocytic Leukemia   CTR bone marrow	myeloid.cell.Acute.Promyelocytic.Leukemia...CTR.bone.marrow	0.5149340122	0.8209779108	blood, myeloid, cancer
+BLUEPRINT	naive B cell naive B cell venous blood	naive.B.cell.naive.B.cell.venous.blood	0.5644482064	0.8813670276	blood, B cell
+BLUEPRINT	neutrophilic metamyelocyte neutrophilic metamyelocyte bone marrow	neutrophilic.metamyelocyte.neutrophilic.metamyelocyte.bone.marrow	0.6489906599	0.8830319779	blood, neutrophil
+BLUEPRINT	neutrophilic myelocyte neutrophilic myelocyte bone marrow	neutrophilic.myelocyte.neutrophilic.myelocyte.bone.marrow	0.6367463423	0.8882322787	blood, neutrophil
+BLUEPRINT	osteoclast osteoclast venous blood	osteoclast.osteoclast.venous.blood	0.6741203237	0.887195895	blood, osteoclast
+BLUEPRINT	peripheral blood mononuclear cell Acute Myeloid Leukemia venous blood	peripheral.blood.mononuclear.cell.Acute.Myeloid.Leukemia.venous.blood	0.6078293316	0.8380701302	blood, mononuclear, cancer
+BLUEPRINT	plasma cell Multiple Myeloma bone marrow	plasma.cell.Multiple.Myeloma.bone.marrow	0.6644140013	0.6619086718	blood, plasma, cancer
+BLUEPRINT	plasma cell plasma cell bone marrow	plasma.cell.plasma.cell.bone.marrow	0.7790494316	0.8216162623	blood, plasma
+BLUEPRINT	plasma cell plasma cell tonsil	plasma.cell.plasma.cell.tonsil	0.730332643	0.8526616438	blood, plasma
+BLUEPRINT	precursor B cell Acute Lymphocytic Leukemia bone marrow	precursor.B.cell.Acute.Lymphocytic.Leukemia.bone.marrow	0.6947865802	0.8343406564	blood, B cell, cancer
+BLUEPRINT	precursor B cell Acute Lymphocytic Leukemia venous blood	precursor.B.cell.Acute.Lymphocytic.Leukemia.venous.blood	0.586350442	0.833563431	blood, B cell, cancer
+BLUEPRINT	precursor B cell precursor B cell bone marrow	precursor.B.cell.precursor.B.cell.bone.marrow	0.5471616738	0.8993807316	blood, B cell, cancer
+BLUEPRINT	precursor lymphocyte of B lineage precursor lymphocyte of B lineage bone marrow	precursor.lymphocyte.of.B.lineage.precursor.lymphocyte.of.B.lineage.bone.marrow	0.5345631262	0.8956517508	blood, B cell
+BLUEPRINT	regulatory T cell regulatory T cell venous blood	regulatory.T.cell.regulatory.T.cell.venous.blood	0.7500268713	0.8654709059	blood, T cell
+BLUEPRINT	segmented neutrophil of bone marrow segmented neutrophil of bone marrow bone marrow	segmented.neutrophil.of.bone.marrow.segmented.neutrophil.of.bone.marrow.bone.marrow	0.6247330828	0.8830118835	blood, neutrophil
+BLUEPRINT	thymocyte thymocyte thymus lymphoid tissue	thymocyte.thymocyte.thymus.lymphoid.tissue	0.5022448651	0.8970240227	blood, thymocyte
+BLUEPRINT	X  Chronic Lymphocytic Leukemia venous blood	X..Chronic.Lymphocytic.Leukemia.venous.blood	0.7621737132	0.8168457743	blood, cancer
+BLUEPRINT	X  Mantle Cell Lymphoma venous blood	X..Mantle.Cell.Lymphoma.venous.blood	0.7605273063	0.8062265034	blood, cancer
+BLUEPRINT	X  T cell Prolymphocytic Leukemia venous blood	X..T.cell.Prolymphocytic.Leukemia.venous.blood	0.7126114789	0.806759708	blood, T cell
+BLUEPRINT_HSC	B cell from peripheral blood	B.cell.from.peripheral.blood	0.4916569009	0.7676909817	blood, B cell
+BLUEPRINT_HSC	CD4  T cell from peripheral blood	CD4..T.cell.from.peripheral.blood	0.4833777255	0.7638219003	blood, T cell
+BLUEPRINT_HSC	CD8  T cell from peripheral blood	CD8..T.cell.from.peripheral.blood	0.4848565209	0.7669409728	blood, T cell
+BLUEPRINT_HSC	Common lymphoid progenitor from peripheral blood	Common.lymphoid.progenitor.from.peripheral.blood	0.4620384647	0.8163822715	blood, progenitor
+BLUEPRINT_HSC	Common myeloid progenitor from peripheral blood	Common.myeloid.progenitor.from.peripheral.blood	0.4749478961	0.8102606389	blood, progenitor
+BLUEPRINT_HSC	Granulocyte macrophage progenitor from peripheral blood	Granulocyte.macrophage.progenitor.from.peripheral.blood	0.4771983745	0.8041032647	blood, progenitor
+BLUEPRINT_HSC	Hematopoietic stem cell from bone marrow	Hematopoietic.stem.cell.from.bone.marrow	0.4657350873	0.7820580511	blood, stem
+BLUEPRINT_HSC	Hematopoietic stem cell from cord blood	Hematopoietic.stem.cell.from.cord.blood	0.4744901193	0.7940327628	blood, stem
+BLUEPRINT_HSC	Hematopoietic stem cell from fetal liver	Hematopoietic.stem.cell.from.fetal.liver	0.4734147676	0.7486214996	blood, stem
+BLUEPRINT_HSC	Hematopoietic stem cell from peripheral blood	Hematopoietic.stem.cell.from.peripheral.blood	0.486482713	0.7194712961	blood, stem
+BLUEPRINT_HSC	Immature lymphoid progenitor 0 from peripheral blood	Immature.lymphoid.progenitor.0.from.peripheral.blood	0.4620076751	0.8062884797	blood, progenitor
+BLUEPRINT_HSC	Immature lymphoid progenitor 1 from peripheral blood	Immature.lymphoid.progenitor.1.from.peripheral.blood	0.4605857105	0.8125971773	blood, progenitor
+BLUEPRINT_HSC	Immature lymphoid progenitor 2 from peripheral blood	Immature.lymphoid.progenitor.2.from.peripheral.blood	0.46430163	0.8046984146	blood, progenitor
+BLUEPRINT_HSC	Immature lymphoid progenitor 3 from peripheral blood	Immature.lymphoid.progenitor.3.from.peripheral.blood	0.4663846217	0.8069472607	blood, progenitor
+BLUEPRINT_HSC	Megakaryocyte erythrocyte progenitor from peripheral blood	Megakaryocyte.erythrocyte.progenitor.from.peripheral.blood	0.4760397848	0.8098210555	blood, megakaryocyte
+BLUEPRINT_HSC	Megakaryocyte from bone marrow	Megakaryocyte.from.bone.marrow	0.4786601652	0.6871655825	blood, megakaryocyte
+BLUEPRINT_HSC	Monocyte from peripheral blood	Monocyte.from.peripheral.blood	0.4997991228	0.7342665784	blood, monocyte
+BLUEPRINT_HSC	Multipotent progenitor from bone marrow	Multipotent.progenitor.from.bone.marrow	0.4858102625	0.7480639069	blood, progenitor
+BLUEPRINT_HSC	Multipotent progenitor from cord blood	Multipotent.progenitor.from.cord.blood	0.4679879106	0.7970350137	blood, progenitor
+BLUEPRINT_HSC	Multipotent progenitor from peripheral blood	Multipotent.progenitor.from.peripheral.blood	0.4798154599	0.7968930992	blood, progenitor
+BLUEPRINT_HSC	Natural killer cell from peripheral blood	Natural.killer.cell.from.peripheral.blood	0.4922342547	0.725536891	blood, NK cell
+BLUEPRINT_HSC	Neutrophil from peripheral blood	Neutrophil.from.peripheral.blood	0.5005935351	0.750310262	blood, neutrophil
+CREST	CD49f positive cytotrophoblast Healthy	CD49f_positive_cytotrophoblast.Healthy	0.7220798106	0.7433984043	developmental
+CREST	Endometrial epitherium follicular phase Myoma	Endometrial_epitherium_follicular_phase.Myoma	0.634899421	0.748432657	endometrial, reproductive (F)
+CREST	Endometrial epitherium secretory phase Myoma	Endometrial_epitherium_secretory_phase.Myoma	0.6388780787	0.7450029946	endometrial, reproductive (F)
+CREST	Endometrial stroma cell Dermoid cyst	Endometrial_stroma_cell.Dermoid_cyst	0.6686195989	0.7485289316	endometrial, reproductive (F)
+CREST	Endometrial stroma cell Myoma	Endometrial_stroma_cell.Myoma	0.6520030175	0.7541934634	endometrial, reproductive (F)
+CREST	Syncytiotrophoblast Healthy	Syncytiotrophoblast.Healthy	0.7083119422	0.7252756971	endometrial, developmental, epithelial, endocrine, reproductive (F)
+Encode	A549	A549	0.6608089065	0.6654885283	lung, epithelial, cancer
+Encode	adipose tissue	adipose.tissue	0.7608814093	0.8732602985	adipose
+Encode	adrenal gland	adrenal.gland	0.7101665459	0.8482199378	adrenal, endocrine
+Encode	aorta	aorta	0.7032183092	0.8216198381	circulatory, smooth muscle
+Encode	B cell	B.cell	0.5507741443	0.7730479937	blood, B cell
+Encode	body of pancreas	body.of.pancreas	0.7037721051	0.8003391345	pancreas
+Encode	CD14 positive monocyte	CD14.positive.monocyte	0.5318160472	0.7819470641	blood, monocyte
+Encode	common myeloid progenitor  CD34 positive	common.myeloid.progenitor..CD34.positive	0.4865473508	0.8042004983	developmental, blood
+Encode	ectodermal cell	ectodermal.cell	0.4746962723	0.8446670756	developmental
+Encode	endodermal cell	endodermal.cell	0.4452927116	0.8258960335	developmental
+Encode	esophagus	esophagus	0.7663758078	0.8681453668	esophagus
+Encode	esophagus muscularis mucosa	esophagus.muscularis.mucosa	0.6173852702	0.7997773475	esophagus
+Encode	esophagus squamous epithelium	esophagus.squamous.epithelium	0.6946366708	0.8083330338	esophagus, epithelial, squamous
+Encode	gastroesophageal sphincter	gastroesophageal.sphincter	0.6196560484	0.7774130967	gastrointestinal, sphincter
+Encode	GM12878	GM12878	0.6424999234	0.6409719746	blood, lymphoblast
+Encode	GM23248	GM23248	0.6384508553	0.6726124243	fibroblast, skin
+Encode	H1	H1	0.4407901296	0.8096133927	stem
+Encode	heart	heart	0.5876137946	0.7892759291	heart
+Encode	heart left ventricle	heart.left.ventricle	0.7373119076	0.8590658178	heart
+Encode	heart right ventricle	heart.right.ventricle	0.7386046195	0.8593429999	heart
+Encode	HeLa S3	HeLa.S3	0.5880357175	0.5891185204	cervical, cancer
+Encode	hepatocyte	hepatocyte	0.6412279713	0.8223695302	liver
+Encode	HepG2	HepG2	0.6337871091	0.6309130277	liver
+Encode	HUES64	HUES64	0.4867458915	0.8378639746	stem
+Encode	IMR 90	IMR.90	0.5650898097	0.6396425222	fibroblast, lung
+Encode	K562	K562	0.5030184683	0.5536207942	blood, lymphoblast, cancer
+Encode	large intestine	large.intestine	0.4820981096	0.6591444589	gastrointestinal, intestine
+Encode	liver	liver	0.7142149519	0.8343897703	liver
+Encode	lower leg skin	lower.leg.skin	0.7150010589	0.848231539	skin
+Encode	lung	lung	0.7331953931	0.8718614829	lung
+Encode	mammary epithelial cell	mammary.epithelial.cell	0.5958794419	0.6876236717	mammary, epithelial, reproductive (F)
+Encode	mesenchymal stem cell	mesenchymal.stem.cell	0.5601083862	0.7624208617	stem
+Encode	mesodermal cell	mesodermal.cell	0.4320119578	0.7887996382	developmental
+Encode	motor neuron	motor.neuron	0.7010606267	0.8022487604	brain, central nervous system
+Encode	muscle of leg	muscle.of.leg	0.5997889501	0.7388580041	skeletal muscle
+Encode	muscle of trunk	muscle.of.trunk	0.6152869514	0.7626603876	skeletal muscle
+Encode	natural killer cell	natural.killer.cell	0.5779003514	0.802165527	blood, NK cell
+Encode	ovary	ovary	0.7240271731	0.8337481771	ovary, reproductive (F)
+Encode	pancreas	pancreas	0.7272483898	0.817294494	pancreas
+Encode	placenta	placenta	0.6438508594	0.7124412996	placenta, reproductive (F)
+Encode	prostate gland	prostate.gland	0.6779747756	0.825196073	prostate, reproductive (M)
+Encode	psoas muscle	psoas.muscle	0.7450082358	0.8460768923	skeletal muscle
+Encode	right cardiac atrium	right.cardiac.atrium	0.7481197889	0.8513229746	heart
+Encode	right lobe of liver	right.lobe.of.liver	0.636240355	0.7056026338	liver
+Encode	sigmoid colon	sigmoid.colon	0.7571820082	0.8654151137	colon
+Encode	SK N SH	SK.N.SH	0.6322052307	0.6355180829	neuroblastoma, brain, stem, cancer
+Encode	skeletal muscle myoblast	skeletal.muscle.myoblast	0.6940589362	0.7778934812	skeletal muscle
+Encode	small intestine	small.intestine	0.7512118171	0.8568611492	gastrointestinal, intestine
+Encode	smooth muscle cell	smooth.muscle.cell	0.6298581902	0.823185919	smooth muscle
+Encode	spinal cord	spinal.cord	0.5980195414	0.7852353207	central nervous system
+Encode	spleen	spleen	0.7519807627	0.8720769213	spleen, lymphatic
+Encode	stomach	stomach	0.7625738868	0.8682632874	gastrointestinal, stomach
+Encode	suprapubic skin	suprapubic.skin	0.6496731243	0.8087138076	skin
+Encode	T cell	T.cell	0.5696264589	0.7261968373	blood, T cell
+Encode	testis	testis	0.6612823328	0.8399958758	testis
+Encode	thymus	thymus	0.597894322	0.8458462049	lymphatic, epithelial
+Encode	thyroid gland	thyroid.gland	0.6747341516	0.8404323648	thyroid, endocrine
+Encode	tibial nerve	tibial.nerve	0.7136278303	0.848106072	nerve, central nervous system
+Encode	transverse colon	transverse.colon	0.6797550606	0.8096531002	gastrointestinal, colon
+Encode	upper lobe of left lung	upper.lobe.of.left.lung	0.6952469154	0.8454354983	lung
+Encode	urinary bladder	urinary.bladder	0.7311561286	0.8472800151	bladder
+GSE186458	Adipocytes	Adipocytes	0.747661315	0.852473683	adipose
+GSE186458	Aorta Endothel	Aorta-Endothel	0.7252390681	0.8317270065	vascular, endothelial, circulatory
+GSE186458	Aorta Smooth Muscle	Aorta-Smooth-Muscle	0.7132568493	0.7653893743	vascular, smooth muscle, circulatory
+GSE186458	Bladder Epithelial	Bladder-Epithelial	0.7301958319	0.8213237818	bladder, epithelial
+GSE186458	Bladder Smooth Muscle	Bladder-Smooth-Muscle	0.7003828281	0.725780901	bladder, smooth muscle
+GSE186458	Blood B Mem	Blood-B-Mem	0.7300808081	0.8111423609	blood, B cell
+GSE186458	Blood B	Blood-B	0.7162437644	0.8431169113	blood, B cell
+GSE186458	Blood Granulocytes	Blood-Granulocytes	0.6716115077	0.8474715288	blood, granulocyte
+GSE186458	Blood Monocytes	Blood-Monocytes	0.6539230102	0.8503736926	blood, monocyte
+GSE186458	Blood NK	Blood-NK	0.701411895	0.8456794366	blood, NK cell
+GSE186458	Blood T CD3	Blood-T-CD3	0.7174509005	0.8388978819	blood, T cell
+GSE186458	Blood T CD4	Blood-T-CD4	0.7158063008	0.8465122873	blood, T cell
+GSE186458	Blood T CD8	Blood-T-CD8	0.7509016002	0.8311604463	blood, T cell
+GSE186458	Blood T CenMem CD4	Blood-T-CenMem-CD4	0.7338883198	0.8359872892	blood, T cell
+GSE186458	Blood T Eff CD8	Blood-T-Eff-CD8	0.7444705293	0.8246535175	blood, T cell
+GSE186458	Blood T EffMem CD4	Blood-T-EffMem-CD4	0.7580855675	0.8295995426	blood, T cell
+GSE186458	Blood T EffMem CD8	Blood-T-EffMem-CD8	0.7432738932	0.819161256	blood, T cell
+GSE186458	Blood T Naive CD4	Blood-T-Naive-CD4	0.5445986896	0.8309216549	blood, T cell
+GSE186458	Blood T Naive CD8	Blood-T-Naive-CD8	0.5241682547	0.8397075058	blood, T cell
+GSE186458	Bone Osteoblasts	Bone-Osteoblasts	0.7183741364	0.7750477613	bone
+GSE186458	Bone	Bone	0.7484847812	0.7978043704	bone
+GSE186458	Breast Basal Epithelial	Breast-Basal-Epithelial	0.655986746	0.822200698	mammary, epithelial, reproductive (F)
+GSE186458	Breast Luminal Epithelial	Breast-Luminal-Epithelial	0.685363588	0.8255063046	mammary, epithelial, reproductive (F)
+GSE186458	Cerebellum Neuron	Cerebellum-Neuron	0.5944618223	0.7970321572	brain, central nervous system
+GSE186458	Colon Fibroblasts	Colon-Fibroblasts	0.7632464396	0.8489212724	colon, fibroblast
+GSE186458	Colon Left Endocrine	Colon-Left-Endocrine	0.667553756	0.7994508581	colon, endocrine
+GSE186458	Colon Left Epithelial	Colon-Left-Epithelial	0.6893411813	0.8067332628	colon, epithelial
+GSE186458	Colon Macrophages	Colon-Macrophages	0.716766744	0.8421416493	colon, blood, macrophage
+GSE186458	Colon Right Endocrine	Colon-Right-Endocrine	0.651374978	0.787407908	colon, endocrine
+GSE186458	Colon Right Epithelial	Colon-Right-Epithelial	0.6907406084	0.8019632984	colon, epithelial
+GSE186458	Coronary Artery Smooth Muscle	Coronary-Artery-Smooth-Muscle	0.6711567362	0.7386176459	vascular, smooth muscle, circulatory
+GSE186458	Cortex Neuron	Cortex-Neuron	0.6632564076	0.8641703188	brain, central nervous system
+GSE186458	Dermal Fibroblasts	Dermal-Fibroblasts	0.699258196	0.7972531166	skin, fibroblast
+GSE186458	Endometrium Epithelial	Endometrium-Epithelial	0.7065970118	0.8145148308	endometrial, epithelial, reproductive (F)
+GSE186458	Epidermal Keratinocytes	Epidermal-Keratinocytes	0.6842067351	0.8063078207	skin, keratinocytes
+GSE186458	Esophagus Epithelial	Esophagus-Epithelial	0.6766053648	0.8046058363	esophagus, epithelial
+GSE186458	Fallopian Epithelial	Fallopian-Epithelial	0.667889804	0.8077725625	fallopian, epithelial, reproductive (F)
+GSE186458	Gallbladder Epithelial	Gallbladder-Epithelial	0.6223395483	0.795047264	gallbladder, gastrointestinal, epithelial
+GSE186458	Gastric antrum Endocrine	Gastric-antrum-Endocrine	0.6743864381	0.8075355063	gastrointestinal, endocrine
+GSE186458	Gastric antrum Epithelial	Gastric-antrum-Epithelial	0.7206305677	0.826249274	gastrointestinal, epithelial
+GSE186458	Gastric body Epithelial	Gastric-body-Epithelial	0.7164840727	0.8204502658	gastrointestinal, epithelial
+GSE186458	Gastric fundus Epithelial	Gastric-fundus-Epithelial	0.7210019646	0.8180008288	gastrointestinal, epithelial
+GSE186458	Heart Cardiomyocyte	Heart-Cardiomyocyte	0.6553011281	0.8181671021	heart
+GSE186458	Heart Fibroblasts	Heart-Fibroblasts	0.7362700613	0.7870682955	heart, fibroblast
+GSE186458	Kidney Glomerular Endothel	Kidney-Glomerular-Endothel	0.7204341347	0.8492786923	kidney, endothelial
+GSE186458	Kidney Glomerular Epithelial	Kidney-Glomerular-Epithelial	0.6686263825	0.8227299427	kidney, epithelial
+GSE186458	Kidney Glomerular Podocytes	Kidney-Glomerular-Podocytes	0.6876549605	0.837609831	kidney
+GSE186458	Kidney Tubular Endothel	Kidney-Tubular-Endothel	0.7027795684	0.8405878934	kidney, endothelial
+GSE186458	Kidney Tubular Epithelial	Kidney-Tubular-Epithelial	0.6837477111	0.8357311023	kidney, epithelial
+GSE186458	Larynx Epithelial	Larynx-Epithelial	0.7149542158	0.8035724037	larynx, epithelial
+GSE186458	Liver Endothelium	Liver-Endothelium	0.7516387478	0.8246406251	liver, endothelial
+GSE186458	Liver Hepatocytes	Liver-Hepatocytes	0.6783457892	0.7967173494	liver
+GSE186458	Liver Macrophages	Liver-Macrophages	0.6634822434	0.8443424819	liver, blood, macrophage
+GSE186458	Lung Alveolar Endothel	Lung-Alveolar-Endothel	0.7372127333	0.8393610183	lung, endothelial
+GSE186458	Lung Alveolar Epithelial	Lung-Alveolar-Epithelial	0.7184511895	0.8284151442	lung, epithelial
+GSE186458	Lung Alveolar Macrophages	Lung-Alveolar-Macrophages	0.6421927419	0.8462154286	lung, blood, macrophage
+GSE186458	Lung Bronchus Epithelial	Lung-Bronchus-Epithelial	0.7225654057	0.8291770248	lung, epithelial
+GSE186458	Lung Bronchus Smooth Muscle	Lung-Bronchus-Smooth-Muscle	0.6936680331	0.7584989463	lung, smooth muscle
+GSE186458	Lung Interstitial Macrophages	Lung-Interstitial-Macrophages	0.6767360277	0.8547330315	lung, blood, macrophage
+GSE186458	Lung Pleura	Lung-Pleura	0.6387270513	0.7865801584	lung
+GSE186458	Neuron	Neuron	0.5152186555	0.8351198802	brain, central nervous system
+GSE186458	Oligodendrocytes	Oligodendrocytes	0.657441096	0.836605641	brain, central nervous system
+GSE186458	Ovary Epithelial	Ovary-Epithelial	0.6105896905	0.7408035879	ovary, epithelial, reproductive (F)
+GSE186458	Pancreas Acinar	Pancreas-Acinar	0.7096759928	0.7817128012	pancreas
+GSE186458	Pancreas Alpha	Pancreas-Alpha	0.6323662646	0.8120918583	pancreas
+GSE186458	Pancreas Beta	Pancreas-Beta	0.6398846934	0.8122926449	pancreas
+GSE186458	Pancreas Delta	Pancreas-Delta	0.6609482002	0.8197336747	pancreas
+GSE186458	Pancreas Duct	Pancreas-Duct	0.663995304	0.822934687	pancreas
+GSE186458	Pancreas Endothel	Pancreas-Endothel	0.7218843343	0.8473891755	pancreas, endothelial
+GSE186458	Pancreas Islet Endothel	Pancreas-Islet-Endothel	0.687403734	0.8285684467	pancreas, endothelial
+GSE186458	Pharynx Epithelial	Pharynx-Epithelial	0.6389159079	0.7495954104	pharynx, epithelial
+GSE186458	Prostate Epithelial	Prostate-Epithelial	0.7293896556	0.8423942195	prostate, reproductive (M), epithelial
+GSE186458	Prostate Smooth Muscle	Prostate-Smooth-Muscle	0.6362211205	0.7221332017	prostate, smooth muscle
+GSE186458	Saphenous Vein Endothel	Saphenous-Vein-Endothel	0.7245372874	0.8497228548	endothelial
+GSE186458	Skeletal Muscle	Skeletal-Muscle	0.7328232807	0.8407211499	skeletal muscle
+GSE186458	Small int Endocrine	Small-int-Endocrine	0.6562801349	0.7806582873	small intestine, endocrine, gastrointestinal
+GSE186458	Small int Epithelial	Small-int-Epithelial	0.7216188386	0.8129018818	small intestine, epithelial, gastrointestinal
+GSE186458	Thyroid Epithelial	Thyroid-Epithelial	0.622353856	0.8209143613	thyroid, epithelial
+GSE186458	Tongue Epithelial	Tongue-Epithelial	0.7230261124	0.8249542624	tongue, epithelial
+GSE186458	Tongue	Tongue	0.6851669522	0.7914262027	tongue
+GSE186458	Tonsil Palatine Epithelial	Tonsil-Palatine-Epithelial	0.7437164194	0.8220822611	tonsil, epithelial
+GSE186458	Tonsil Pharyngeal Epithelial	Tonsil-Pharyngeal-Epithelial	0.7264084153	0.8171827938	tonsil, epithelial
+GSE46644	bcell	bcell	0.5517249181	0.7165071244	blood, B cell
+GSE46644	Colon Tumor Primary	Colon_Tumor_Primary	0.6852055476	0.7481820676	colon, cancer
+GSE46644	Frontal cortex AD	Frontal_cortex_AD	0.666723465	0.8860760333	brain, cancer
+GSE46644	Frontal cortex normal	Frontal_cortex_normal	0.6669656502	0.8859490125	brain
+GSE46644	H1 BMP4 derived mesendoderm cells	H1.BMP4.derived.mesendoderm.cells	0.4853464253	0.839114254	stem
+GSE46644	H1 derived mesenchymal stem cells	H1.derived.mesenchymal.stem.cells	0.5191931533	0.7484643458	stem
+GSE46644	H1 derived neuronal progenitor cells	H1.derived.neuronal.progenitor.cells	0.4935333078	0.8366475425	stem
+GSE46644	HepG2	HepG2	0.5927075199	0.5908881267	liver
+GSE46644	HSCP	HSCP	0.5301209056	0.7648335499	blood, stem
+GSE46644	human sperm	human.sperm	0.5517393173	0.7532926582	sperm
+GSE46644	IMR90	IMR90	0.6060978866	0.7067621147	fibroblast, lung
+TCGA	TCGA BLCA	TCGA-BLCA	0.7388545656	0.7791934585	bladder, cancer
+TCGA	TCGA BRCA	TCGA-BRCA	0.7297019482	0.8350345057	mammary, cancer
+TCGA	TCGA COAD	TCGA-COAD	0.7547947957	0.8221133009	colon, cancer
+TCGA	TCGA GBM	TCGA-GBM	0.7033338837	0.8277277376	brain, cancer, central nervous system
+TCGA	TCGA LUAD	TCGA-LUAD	0.7255971153	0.8330751995	lung, cancer
+TCGA	TCGA LUSC	TCGA-LUSC	0.7485271416	0.8465861026	lung, cancer, squamous
+TCGA	TCGA READ	TCGA-READ	0.7290003961	0.7937605081	kidney, cancer, gastrointestinal
+TCGA	TCGA STAD	TCGA-STAD	0.7606939644	0.8086222188	stomach, cancer, gastrointestinal
+TCGA	TCGA UCEC	TCGA-UCEC	0.698189203	0.8056559589	uterine, endometrial, cancer
+GTEx	Basal ganglia	Basal_ganglia	0.5738492727	0.9111492504	brain
+GTEx	Brain Amygdala	Brain_Amygdala	0.6379187221	0.9253425276	brain
+GTEx	Brain Anterior cingulate cortex BA24	Brain_Anterior_cingulate_cortex_BA24	0.6129192685	0.9228538713	brain
+GTEx	Brain Caudate basal ganglia	Brain_Caudate_basal_ganglia	0.5570231705	0.9041253774	brain
+GTEx	Brain Frontal Cortex BA9	Brain_Frontal_Cortex_BA9	0.6073967849	0.9150879582	brain
+GTEx	Brain Hippocampus	Brain_Hippocampus	0.649762326	0.9062474046	brain
+GTEx	Brain Hypothalamus	Brain_Hypothalamus	0.6029990584	0.9391456177	brain
+GTEx	Brain Nucleus accumbens basal ganglia	Brain_Nucleus_accumbens_basal_ganglia	0.5896964086	0.9214181909	brain
+GTEx	Brain Putamen basal ganglia	Brain_Putamen_basal_ganglia	0.5528658768	0.8988484728	brain
+GTEx	Breast Mammary Tissue	Breast_Mammary_Tissue	0.6876972341	0.9085428256	mammary
+GTEx	Cortical	Cortical	0.6126095506	0.9190029321	brain
+GTEx	Esophagus Muscularis	Esophagus_Muscularis	0.6876315566	0.9202198522	esophagus
+GTEx	HC1	HC1	0.6295762639	0.9212203654	brain
+GTEx	HC2	HC2	0.6378670641	0.8878504103	brain
+GTEx	Heart Left Ventricle	Heart_Left_Ventricle	0.7042228287	0.9097975418	heart
+GTEx	Lung	Lung	0.7137053526	0.9241954874	lung
+GTEx	Muscle Skeletal	Muscle_Skeletal	0.6815144734	0.8937960838	skeletal muscle
+GTEx	Pituitary	Pituitary	0.6986496729	0.8969967564	pituitary, endocrine
+GTEx	Skin Sun Exposed Lower leg	Skin_Sun_Exposed_Lower_leg	0.7054833936	0.9150248568	skin
+GTEx	Thyroid	Thyroid	0.6756742536	0.9219087703	thyroid, endocrine
