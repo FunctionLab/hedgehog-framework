@@ -9,14 +9,13 @@ For torchsort installation, we run the following steps after all other dependenc
 pip install --force-reinstall --no-cache-dir --no-deps torchsort
 ```
 
-We also provide `env.yaml` and `env.txt` which are exported from the conda environment we used, but recommend installation in the order we specified above rather than using these files directly since installation difficulties can be common across different OS. We provide these primarily as a reference for any dependencies that we may have missed (please file a GitHub issue if you catch any so we can improve our documentation!). Also note that Hedgehog was originally trained with Python 3.8 with a local installation of Selene but we have since updated our requirements in the Selene package to require Python 3.9+. 
+We also provide `env.yaml` and `env.txt` which are exported from the conda environment we used, but recommend installation in the order we specified above rather than using these files directly since installation difficulties can be common across different OS. We provide these primarily as a reference for any dependencies that we may have missed (please file a GitHub issue if you catch any so we can improve our documentation!).
+
+(Hedgehog was originally trained with Python 3.8 with a local installation of Selene but we have since updated our requirements in the Selene package to require Python 3.9+.) 
 
 ## Setup
 
-Download `resources` genome FASTA files with `./download_data.sh`
-
-Please download all necessary data files for the steps you are interested in running. 
-
+Please review `./download_data.sh`, which has a number of commented out lines, and re-comment in any necessary data files for the steps you are interested in running. 
 
 ## Overview
 

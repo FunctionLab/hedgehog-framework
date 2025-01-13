@@ -1,0 +1,6 @@
+model:
+  class: Hedgehog
+  path: ../model/hedgehog.py
+seq_len: 2048
+batch_size: 128
+checkpoint: ../model/hedgehog.pth
