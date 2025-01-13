@@ -1,0 +1,8 @@
+model/*.tar.gz
+model/berry_for_ML
+model/h5_datasets
+model/.ipynb_checkpoints
+model/*.pth
+predict/data
+resources/
+

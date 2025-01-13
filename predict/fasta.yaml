@@ -1,0 +1,26 @@
+---
+ops: [analyze]
+model: {
+    path: ../model/hedgehog.py,
+    class: Hedgehog,
+    class_args: {
+     sequence_length: 2048,
+     n_genomic_features: 296 
+    },
+    non_strand_specific: mean
+}
+analyze_sequences: !obj:selene_sdk.predict.AnalyzeSequences {
+    sequence_length: 2048,
+    batch_size: 128,
+    trained_model_path: ../model/hedgehog.pth,
+    features: !obj:selene_sdk.utils.load_features_list {
+        input_path: ../model/placeholder_targets.global_mapping.txt
+    },
+    use_cuda: True,
+    write_mem_limit: 1000
+}
+prediction: {
+    output_format: hdf5
+}
+random_seed: 999
+...
