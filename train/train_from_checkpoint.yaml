@@ -1,0 +1,17 @@
+model:
+    path: ../model/hedgehog.py
+    class: Hedgehog
+seq_len: 2048
+
+batch_size: 128
+n_cpus: 16
+data_parallel: True
+output_dir: ./train_out
+
+report_after_n_steps: 2500
+random_seed: 44
+train_file: ../model/h5_datasets/train.seqlen=4096.seed=121.N=12000000.1.h5
+
+loss: spearman_by_track_default
+# TODO update this line
+checkpoint: <path-to-trained-model>/best_model.pth.tar
