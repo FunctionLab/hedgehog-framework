@@ -45,8 +45,9 @@ the reference allele predictions, across all 296 methylation profiles predicted
 by Hedgehog.
 
 - Step 4: To add additional context to your analysis, the methylation sequence class
-assignment of the CpG loci are available at `./data/berry.liftover_hg19.intersect_meseq_clusters.bed`
-and `./data/berry.hg38.intersect_meseq_clusters.bed` (depending on which genome
+assignment of the CpG loci are available at 
+`./data/berry.liftover_hg19.intersect_meseq_clusters.bed` and 
+`./data/berry.hg38.intersect_meseq_clusters.bed` (depending on which genome
 version your variant coordinates use). Simply filter the BED file to the CpG
 loci that are impacted by your variant set and use the methylation sequence
 class assignment to get a high-level characterization of these loci based on

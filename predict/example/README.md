@@ -119,5 +119,5 @@ Simply filter the BED file to the CpG loci that are impacted by your variant
 set and use the methylation sequence class assignment to get a high-level 
 characterization of these loci based on methylation regulation patterns.
 Methylation sequence class assignment labels are available in Supp Table 2
-`../data/methylation_seq_classes_ST2.tsv`.
+`../../model/methylation_seq_classes_ST2.tsv`.
 

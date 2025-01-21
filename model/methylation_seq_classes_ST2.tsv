@@ -1,0 +1,44 @@
+Cluster Indices	Methylation Sequence Classes	Short Annotations	Repeat enriched (FDR < 2.2e-16, folds > 1.2)	Imprinting (FDR < 2.2e-15)	Centromere/TSS (FDR < 2.2-16)	Color
+0			SINE enriched			#E6AB02
+1	C1	Gastrointestinal				#7edc45
+2			SINE enriched			#da6130
+3			SINE, LTR enriched			#E31A1C
+4			LINE, LTR enriched			#FB9A99
+5	C5	Brain hypermethylation (MYCN, CREB3L1, MXI1)	LINE, LTR enriched			#83d5af
+6			LINE, LTR enriched		Centromere enriched	#6A3D9A
+7			LINE, LTR enriched		Centromere enriched	#c17e7f
+8	C8	Brain hypermethylation (BSX, HOMEZ)	LINE, LTR enriched			#cd3e50
+9	C9	Epithelia				#FFFF99
+10			LINE, LTR enriched			#7cb9cb
+11	C11	Multi-tissue	LINE enriched			#D95F02
+12						#773a27
+13						#A6761D
+14			SINE enriched			#d3d3d3
+15	C15	Colon/Intestine				#b249d5
+16			SINE enriched			#1F78B4
+17	C17	Variably hypomethylated promoters		Imprinting enriched	TSS enriched	#FF7F00
+18	C18	Innate immune cells		Imprinting enriched	TSS enriched	#E7298A
+19			LINE enriched			#594e50
+20			SINE enriched			#532a5a
+21	C21	Brain hypomethylation (NFIA, RFX4)		Imprinting enriched		#003380
+22			SINE enriched			#5e79b2
+23						#c497cf
+24	C24	Genitourinary Epithelia			Centromere enriched	#5f7b35
+25	C25	Monocyte/Macrophage				#66A61E
+26	C26	Muscle/Adipocytes				#A6CEE3
+27	C27	Embryogenesis (CTCF)		Imprinting enriched	TSS enriched	#33A02C
+28	C28	B cell	SINE enriched			#CAB2D6
+29	C29	Endothelial/Heart				#ff69b4
+30			SINE enriched			#FDBF6F
+31	C31	Centromere			Centromere enriched	#c29545
+32			SINE enriched			#B15928
+33	C33	Centromere (acrocentric)			Centromere enriched	#cfd251
+34	C34	Brain hypomethylation (NGN2, ATOH1)				#69c86c
+35			SINE enriched		TSS enriched	#1B9E77
+36	C36	T cell				#B2DF8A
+37	C37	Lung/Thyroid epithelia				#7570B3
+38	C38	Hormone-responsive Epithelia			Centromere enriched	#4b6a53
+39			SINE enriched			#d3c4a8
+40	C40	Liver/Pancreas				#1ff8ff
+41	C41	Consistently hypomethylated promoters			TSS enriched	#5c47b8
+42			SINE enriched			#666666
