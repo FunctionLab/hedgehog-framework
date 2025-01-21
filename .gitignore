@@ -6,7 +6,9 @@ model/h5_datasets
 model/.ipynb_checkpoints
 model/*.pth
 predict/data
+predict/example/hedgehog_output
 predict/example/*.bed
 predict/example/*.fasta
+predict/example/*.fasta.fai
 resources/
 

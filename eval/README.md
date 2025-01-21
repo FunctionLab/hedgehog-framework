@@ -1,5 +1,9 @@
 # Hedgehog evaluation
 
+Please run the relevant commands in `../download_data.sh` (most have been 
+commented out to avoid downloading unnecessary data) in order to get the 
+data files necessary for evaluation.
+
 The script `get_model_predictions.py` can be used for any HDF5 file of one-hot
 encoded sequences that has been compressed via `np.packbits(seq > 0, axis=0)`,
 see `./model/create_h5_datasets.ipynb` for reference on how to create these
