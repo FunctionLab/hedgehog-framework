@@ -1,6 +1,7 @@
 **/__pycache__/
 **/selene_sdk
 **/*.tar.gz
+**/*.out
 model/berry_for_ML
 model/h5_datasets
 model/.ipynb_checkpoints

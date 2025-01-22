@@ -15,7 +15,7 @@ We also provide `env.yaml` and `env.txt` which are exported from the conda envir
 
 ## Setup
 
-Please review `./download_data.sh`, which has a number of commented out lines, and re-comment in any necessary data files for the steps you are interested in running. 
+First review `./download_data.sh`, which has a number of commented out lines, and re-comment in any necessary data files for the steps you are interested in running. You may have been provided with a username and password for download via our website server. 
 
 ## Overview
 
