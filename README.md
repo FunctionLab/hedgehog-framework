@@ -1,5 +1,5 @@
 <p align="center">
-  <img height="200" src="img/Hedgehog.png">
+  <img height="150" src="img/Hedgehog.png">
 </p>
 
 #
