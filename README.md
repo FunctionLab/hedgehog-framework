@@ -1,3 +1,9 @@
+<p align="center">
+  <img height="200" src="img/Hedgehog.png">
+</p>
+
+#
+
 Welcome to the Hedgehog model repository! Hedgehog is a sequence-based deep learning model for prediction of methylation levels at CpG locus in the human genome across 296 methylation profiles available in the Berry dataset. This repository can be used to train, evaluate, and apply the Hedgehog model to make predictions on CpG locus disruptions to methylation levels given neighboring variants.  
 
 ## Requirements
