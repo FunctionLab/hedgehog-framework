@@ -35,6 +35,9 @@ detailed usage steps. Briefly, you can use each directory for the following:
              at a center CpG locus is predicted given a variant. Code gets
              Hedgehog predictions given FASTA reference and alternative allele
              sequences as input.
+- `interpret`: Model interpretability using DeepLIFT/DeepSHAP and TF-MoDISco
+               to identify sequence features and motifs that drive model
+               predictions. Useful for understanding what the model learns.
 
 ## Help
 

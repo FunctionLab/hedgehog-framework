@@ -1,0 +1,18 @@
+name: sei-modisco
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+  - ca-certificates
+  - openssl
+  - captum
+  - certifi
+  - cython
+  - pytabix
+  - ruamel.yaml
+prefix: /mnt/home/kchen/miniforge3/envs/sei-modisco
