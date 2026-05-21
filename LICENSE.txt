@@ -1,4 +1,4 @@
-Copyright 2025- The Trustees of Princeton University. All rights reserved.
+Copyright 2025 The Trustees of Princeton University. All rights reserved.
 
 Permission is hereby granted, free of charge, to non-profit academic and research institutions ("Academic Users") to use, reproduce, and modify this software for internal, non-commercial academic and research purposes only, subject to the following conditions:
 
