@@ -43,3 +43,6 @@ detailed usage steps. Briefly, you can use each directory for the following:
 
 Post in the Github issues or e-mail Kathy Chen (chen.kathleenm@gmail.com) with any questions about the repository, requests for more data, etc.
 
+## License
+See `LICENSE` for details. If you are interested in obtaining the software for commercial use, please contact Office of Technology Licensing, Princeton University (Cortney L Cavanaugh, ccavanaugh@princeton.edu or otl@princeton.edu).
+
