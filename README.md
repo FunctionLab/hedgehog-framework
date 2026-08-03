@@ -1,5 +1,5 @@
 <p align="center">
-  <img height="150" src="img/Hedgehog.png">
+  <img height="250" src="img/logo_DNA.svg">
 </p>
 
 #
