@@ -19,7 +19,10 @@ Processing steps, starting from `test.vcf` to get to the FASTA files used in `..
 ```
 # for ease of processing, turn the VCF into a BED file
 awk 'BEGIN{OFS="\t"}{print $1, $2, $2+1, $3, $4, $5}' test.vcf > test.bed
+```
+ **We assume that variant coordinates in the VCF file are 1-based. Accordingly, under the conversion used here, a variant at position `p` in the VCF is encoded in the BED file as the interval from `p` to `p+1`, where `p` denotes the 1-index coordinate of the variant in the VCF file.** 
 
+```
 # make sure your BED file is sorted e.g. `sort -k1V -k2n <input-file> > <output-file>`
 # before running `bedtools intersect`
 
