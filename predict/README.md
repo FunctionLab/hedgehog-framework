@@ -1,17 +1,17 @@
-# Hedgehog CpG locus variant effect predictions 
+# Wreath CpG locus variant effect predictions 
 
 Please run the relevant commands in `../download_data.sh` (most have been 
 commented out to avoid downloading unnecessary data) in order to get the 
 data files necessary for variant effect prediction.
 
-Because Hedgehog only predicts methylation level changes at CpG
+Because Wreath only predicts methylation level changes at CpG
 loci, variant effect prediction entails computing the difference between
 methylation level predictions for a centered CpG locus given an off-center
-mutation. Given Hedgehog's input sequence length of 2048bp, variants can be
+mutation. Given Wreath's input sequence length of 2048bp, variants can be
 up to 1024bp away from the center CpG locus. We only provide functionality
 for handling single-base mutations, not insertions or deletions.
 
-Also note that Hedgehog excludes `chrX` and `chrY` from training to remove
+Also note that Wreath excludes `chrX` and `chrY` from training to remove
 sex chromosome-specific methylation effects, so we recommend removing
 `chrX` and `chrY` variants from your variant set of interest as well.
 
@@ -42,7 +42,7 @@ sh fasta.sh <path-to-alternative-fasta>/alts.fasta <output-directory>
 that is maximally impacted by a given variant by taking the maximum
 absolute difference score between the alternative allele predictions and
 the reference allele predictions, across all 296 methylation profiles predicted
-by Hedgehog.
+by Wreath.
 
 - Step 4: To add additional context to your analysis, the methylation sequence class
 assignment of the CpG loci are available at 

@@ -1,6 +1,6 @@
-# Hedgehog Interpretability Example
+# Wreath Interpretability Example
 
-This directory contains example data for testing the Hedgehog model interpretation pipeline.
+This directory contains example data for testing the Wreath model interpretation pipeline.
 
 ## Example Data
 
@@ -12,10 +12,10 @@ This directory contains example data for testing the Hedgehog model interpretati
 - Unpacks to 4096 bp, center-cropped to 2048 bp for model input
 - Format: numpy array of shape (389, 512, 4)
 
-**`hedgehog_track_inds.txt`**
+**`Wreath_track_inds.txt`**
 - 11 methylation profile target indices
 - Indices: 116, 123, 131, 132, 140, 142, 150, 151, 157, 160, 163
-- Each line contains one target index (0-295 for Hedgehog's 296 profiles)
+- Each line contains one target index (0-295 for Wreath's 296 profiles)
 
 ## Running the Example
 
@@ -29,11 +29,11 @@ conda activate sei-modisco
 # Step 1: Compute attributions
 python3 deeplift_tgm_baselines.py \
     --packbits example/test_sequences_packbits.py \
-    --checkpoint ../model/hedgehog.pth \
+    --checkpoint ../model/wreath.pth \
     --n-targets 296 \
     --model-seq-len 2048 \
     --seq-len 4096 \
-    --targets-file example/hedgehog_track_inds.txt \
+    --targets-file example/wreath_track_inds.txt \
     --targets-per-job 11 \
     --outdir example/output \
     --n-shuffles 16 \
@@ -67,7 +67,7 @@ After running the example, you should have:
 ```
 example/
 ├── test_sequences_packbits.py          # Input data
-├── hedgehog_track_inds.txt             # Target indices
+├── wreath_track_inds.txt             # Target indices
 ├── output/                              # Step 1 output
 │   ├── ohe.npz                         # One-hot encoded sequences (389, 4, 2048)
 │   ├── t116.h5                         # Attributions for target 116
@@ -93,4 +93,4 @@ example/
 
 ## Target Information
 
-The 11 example targets correspond to specific methylation profiles from the Berry dataset. See `../model/hedgehog_targets_cleaned.tsv` for the mapping of target indices to tissue/cell type methylation profiles.
+The 11 example targets correspond to specific methylation profiles from the Berry dataset. See `../model/wreath_targets_cleaned.tsv` for the mapping of target indices to tissue/cell type methylation profiles.

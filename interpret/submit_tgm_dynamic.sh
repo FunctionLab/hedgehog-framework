@@ -6,9 +6,9 @@ set -euo pipefail
 
 # --- Your inputs ---
 PACKBITS=${PACKBITS:-./data/test.seqs_packbits.seed=121.gt_0.9.npy}
-CKPT=${CKPT:-./models/hedgehog.pth}
-OUTDIR=${OUTDIR:-./data/hedgehog/tgm/e1_gt_0.9}
-TARGETS_FILE=${TARGETS_FILE:-./data/e1_hedgehog_inds.txt}
+CKPT=${CKPT:-./models/wreath.pth}
+OUTDIR=${OUTDIR:-./data/wreath/tgm/e1_gt_0.9}
+TARGETS_FILE=${TARGETS_FILE:-./data/e1_wreath_inds.txt}
 
 # --- Tangermeme run settings ---
 N_TARGETS=${N_TARGETS:-296}
@@ -61,7 +61,7 @@ N_SHUFFLES="$N_SHUFFLES",PAIR_BATCH_SIZE="$PAIR_BATCH_SIZE",EXAMPLES_PER_CALL="$
 REF_KIND="$REF_KIND",SAVE_DTYPE="$SAVE_DTYPE",COMPRESSION="$COMPRESSION" \
   <<'SBATCH_SCRIPT'
 #!/bin/bash
-#SBATCH -J hedgehog-dlift-296
+#SBATCH -J wreath-dlift-296
 module purge || true
 source ~/.bashrc
 conda activate sei-modisco

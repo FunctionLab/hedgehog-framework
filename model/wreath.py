@@ -96,7 +96,7 @@ class BSplineTransformation(nn.Module):
 
 
 
-class Hedgehog(nn.Module):
+class Wreath(nn.Module):
     def __init__(self, sequence_length=4096, n_genomic_features=21907):
         """
         Parameters
@@ -104,7 +104,7 @@ class Hedgehog(nn.Module):
         sequence_length : int
         n_genomic_features : int
         """
-        super(Hedgehog, self).__init__()
+        super(Wreath, self).__init__()
 
         self.lconv1 = nn.Sequential(
             nn.Conv1d(4, 480, kernel_size=9, padding=4),

@@ -1,5 +1,5 @@
 """
-CLI for Hedgehog prediction given an input FASTA file.
+CLI for Wreath prediction given an input FASTA file.
 """
 import os
 

@@ -8,8 +8,8 @@ PW=$2
 wget https://zenodo.org/record/4906962/files/sei_framework_resources.tar.gz && \
     tar -xzvf sei_framework_resources.tar.gz && rm sei_framework_resources.tar.gz
 
-# Hedgehog model weights, 597M
-wget --user $USER --password $PW https://hedgehog.princeton.edu/data/hedgehog.pth && mv ./hedgehog.pth model/
+# Wreath model weights, 597M
+wget https://wreath.princeton.edu/data/wreath.pth && mv ./wreath.pth model/
 
 # For the remaining .tar.gz files, you can download based on
 # which analyses you want to run, keeping in mind the storage
@@ -26,12 +26,14 @@ wget --user $USER --password $PW https://hedgehog.princeton.edu/data/hedgehog.pt
 
 # Needed for weight initialization with chromatin profiling DL model,
 # 3.4G
-# wget --user $USER --password $PW https://hedgehog.princeton.edu/data/sei.pth && mv ./sei.pth model/
+# wget https://sei-files.s3.amazonaws.com/resources.tar.gz
+#The sei.pth file can be found under `resources/`
+#mv ./sei.pth model/
 
 # HDF5 datasets used for training and evaluation, 100G
-# wget --user $USER --password $PW https://hedgehog.princeton.edu/data/hedgehog_h5_datasets.tar.gz && \
-#     tar -xzvf hedgehog_h5_datasets.tar.gz -C model/ && \
-#     rm hedgehog_h5_datasets.tar.gz
+# wget https://wreath.princeton.edu/data/wreath_h5_datasets.tar.gz && \
+#     tar -xzvf wreath_h5_datasets.tar.gz -C model/ && \
+#     rm wreath_h5_datasets.tar.gz
 
 
 
@@ -42,7 +44,7 @@ wget --user $USER --password $PW https://hedgehog.princeton.edu/data/hedgehog.pt
 #
 ###############################################################################
 
-# Same as above, run the command for downloading `hedgehog_h5_datasets.tar.gz`
+# Same as above, run the command for downloading `wreath_h5_datasets.tar.gz`
 # if you want to run evaluation on the test holdout dataset.
 # If you have space constraints you can delete the training and validation
 # files from the decompressed directory when not running `train`.
@@ -58,11 +60,11 @@ wget --user $USER --password $PW https://hedgehog.princeton.edu/data/hedgehog.pt
 
 # BED files used to get the CpG loci coordinates and the methylation
 # sequence class assignments, 6G
-# wget --user $USER --password $PW https://hedgehog.princeton.edu/data/predict_data.tar.gz && \
+# wget https://wreath.princeton.edu/data/predict_data.tar.gz && \
 #     tar -xzvf predict_data.tar.gz -C predict/ && rm predict_data.tar.gz
 
 # Example output files, ~20M
-# wget --user $USER --password $PW https://hedgehog.princeton.edu/data/predict_example.tar.gz && \
+# wget https://wreath.princeton.edu/data/predict_example.tar.gz && \
 #     tar -xzvf predict_example.tar.gz -C predict/example --strip-components=1 && \
 #     rm predict_example.tar.gz
 
@@ -79,7 +81,7 @@ wget --user $USER --password $PW https://hedgehog.princeton.edu/data/hedgehog.pt
 
 
 # Berry dataset, 65G
-# wget --user $USER --password $PW https://hedgehog.princeton.edu/data/berry_for_ML.tar.gz && \
+# wget https://wreath.princeton.edu/data/berry_for_ML.tar.gz && \
 #     tar -xzvf berry_for_ML.tar.gz -C model/ && rm berry_for_ML.tar.gz
 
 

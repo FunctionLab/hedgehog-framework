@@ -1,6 +1,6 @@
 model:
-    path: ../model/hedgehog.py
-    class: Hedgehog
+    path: ../model/wreath.py
+    class: Wreath
 seq_len: 2048
 
 batch_size: 128

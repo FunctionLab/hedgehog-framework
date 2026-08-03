@@ -8,7 +8,7 @@ mQTLs associate variants to particular CpG locus), you may instead need to adapt
 `cpg_variants_to_fasta.py` to your input and just generate sequence reference
 and alternative allele FASTA files on which to run `../fasta.sh`. 
 
-Also note that Hedgehog excludes `chrX` and `chrY` from training to remove
+Also note that Wreath excludes `chrX` and `chrY` from training to remove
 sex chromosome-specific methylation effects, so we recommend removing
 `chrX` and `chrY` variants from your variant set of interest as well.
 
@@ -36,7 +36,7 @@ bedtools intersect -a test.bed \
                    -wa -wb > test.intersect_cpg_seq_context.bed
 
 # create full 2kb sequences centered on the CpGs, with the off-center
-# variant ref/alt substitutions. this will be used as input to the Hedgehog
+# variant ref/alt substitutions. this will be used as input to the Wreath
 # model.
 python cpg_variants_to_fasta.py --input test.intersect_cpg_seq_context.bed \
                                 --output test \
@@ -46,15 +46,15 @@ python cpg_variants_to_fasta.py --input test.intersect_cpg_seq_context.bed \
 Finally, run `../fasta.sh` with the resulting ref and alt FASTA files per the `predict` directory README.
 ```
 # ran from the `../predict` directory as the working directory
-sh fasta.sh ./example/test.refs.pm1kb.seqlen\=2048.fasta ./example/hedgehog_output
-sh fasta.sh ./example/test.alts.pm1kb.seqlen\=2048.fasta ./example/hedgehog_output/
+sh fasta.sh ./example/test.refs.pm1kb.seqlen\=2048.fasta ./example/wreath_output
+sh fasta.sh ./example/test.alts.pm1kb.seqlen\=2048.fasta ./example/wreath_output/
 ```
 
 ## Output
 
-The directory `./hedgehog_output` contains the outputs from running the above command.
-The reference allele Hedgehog predictions are in `test.refs.pm1kb.seqlen=2048_predictions.h5`
-and the alternative allele Hedgehog predictions are in `test.alts.pm1kb.seqlen=2048_predictions.h5`.
+The directory `./wreath_output` contains the outputs from running the above command.
+The reference allele Wreath predictions are in `test.refs.pm1kb.seqlen=2048_predictions.h5`
+and the alternative allele Wreath predictions are in `test.alts.pm1kb.seqlen=2048_predictions.h5`.
 These HDF5 files can be loaded using the `h5py` Python package, e.g.
 ```
 import h5py
@@ -63,7 +63,7 @@ alts = h5py.File('./test.alts.pm1kb.seqlen=2048_predictions.h5', 'r')['data'][()
 ```
 
 The columns of `refs` and `alts` are the 296 methylation profiles predicted by
-Hedgehog, the labels for which are available in `../../model/hedgehog_targets_cleaned.tsv`.
+Wreath, the labels for which are available in `../../model/wreath_targets_cleaned.tsv`.
 
 The row label `.txt` files `test.refs.pm1kb.seqlen=2048_row_labels.txt` and `test.alts.pm1kb.seqlen=2048_row_labels.txt`
 correspond to the rows in the `refs` and `alts` matrices. They index the FASTA

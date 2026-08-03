@@ -1,8 +1,8 @@
 ---
 ops: [analyze]
 model: {
-    path: ../model/hedgehog.py,
-    class: Hedgehog,
+    path: ../model/wreath.py,
+    class: Wreath,
     class_args: {
      sequence_length: 2048,
      n_genomic_features: 296 
@@ -12,7 +12,7 @@ model: {
 analyze_sequences: !obj:selene_sdk.predict.AnalyzeSequences {
     sequence_length: 2048,
     batch_size: 128,
-    trained_model_path: ../model/hedgehog.pth,
+    trained_model_path: ../model/wreath.pth,
     features: !obj:selene_sdk.utils.load_features_list {
         input_path: ../model/placeholder_targets.global_mapping.txt
     },

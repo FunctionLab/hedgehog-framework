@@ -1,10 +1,10 @@
 import os, argparse, numpy as np, h5py, torch, sys
 from selene_sdk.utils import NonStrandSpecific
 
-# Add paths to import Hedgehog model and utilities
+# Add paths to import Wreath model and utilities
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'model'))
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'train'))
-from hedgehog import Hedgehog
+from wreath import Wreath
 from utils import init_weights, unpackbits_sequence
 
 # tangermeme
@@ -20,7 +20,7 @@ def disable_inplace_relu(model):
 
 def load_model(checkpoint_path, seq_len, n_targets, device, use_rc=False):
     ckpt = torch.load(checkpoint_path, map_location=lambda storage, location: storage)
-    base = Hedgehog(sequence_length=seq_len, n_genomic_features=n_targets)
+    base = Wreath(sequence_length=seq_len, n_genomic_features=n_targets)
     model = NonStrandSpecific(base) if use_rc else base
     model = init_weights(model, ckpt).to(device).eval()
 
